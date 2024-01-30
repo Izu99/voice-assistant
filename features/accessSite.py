@@ -1,5 +1,7 @@
 import pywhatkit
 import wikipediaapi
+import webbrowser
+import time
 
 
 def play_youtube_video(song_name):
@@ -29,3 +31,12 @@ def get_wikipedia_summary(topic):
         return summary
     else:
         return f"Sorry, {topic} not found on Wikipedia."
+
+
+
+def play_youtube_playlist(playlist_url):
+    # Open the playlist URL
+    webbrowser.open(playlist_url)
+    time.sleep(5)  # Wait for the page to load (optional)
+    return "Playing Your Favorite Playlist"
+ 

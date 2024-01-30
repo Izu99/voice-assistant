@@ -19,6 +19,7 @@ def open_github():
 
 def open_stackoverflow():
     open_website("https://stackoverflow.com")
+    return "Opening Stackoverflow"
 
 def open_facebook():
     open_website("https://www.facebook.com")

@@ -38,7 +38,6 @@ def open_music():
 if __name__ == "__main__":
     # Add test calls for each function here if needed
     open_edge()  # Test opening Microsoft Edge
-    open_file_explorer()  # Test opening File Explorer
+    open_explorer()  # Test opening File Explorer
     open_store()  # Test opening Microsoft Store
-    open_scrcpy()
     open_music()
